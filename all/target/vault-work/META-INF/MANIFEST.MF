@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Implementation-Title: Training Project - All
+Content-Package-Roots: /apps/training-packages,/apps/training-vendor-p
+ ackages
+Implementation-Version: 0.0.1-SNAPSHOT
+Build-Jdk-Spec: 1.8
+Content-Package-Type: container
+Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.1.6
+Content-Package-Id: com.adobe.aem.training:aem-traning.all:0.0.1-SNAPS
+ HOT
+Content-Package-Description: All content package for Training Project
+

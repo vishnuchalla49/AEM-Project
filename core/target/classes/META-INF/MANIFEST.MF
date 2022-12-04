@@ -1,0 +1,44 @@
+Manifest-Version: 1.0
+Bundle-Category: Training Project
+Bundle-Description: Core bundle for Training Project
+Bundle-ManifestVersion: 2
+Bundle-Name: Training Project - Core
+Bundle-SymbolicName: aem-traning.core
+Bundle-Version: 0.0.1.SNAPSHOT
+Export-Package: com.adobe.aem.training.core.filters;version="1.0";uses
+ :="javax.servlet",com.adobe.aem.training.core.listeners;version="1.0"
+ ;uses:="org.apache.sling.api.resource.observation",com.adobe.aem.trai
+ ning.core.models;version="1.0";uses:="javax.annotation,org.apache.sli
+ ng.api.resource,org.apache.sling.models.annotations,org.apache.sling.
+ models.annotations.injectorspecific",com.adobe.aem.training.core.sche
+ dulers;version="1.0",com.adobe.aem.training.core.servlets;version="1.
+ 0";uses:="javax.servlet,org.apache.sling.api,org.apache.sling.api.ser
+ vlets"
+Import-Package: javax.annotation;version="0.0.0",com.adobe.aem.trainin
+ g.core.filters;version="[1.0,2)",com.adobe.aem.training.core.listener
+ s;version="[1.0,2)",com.adobe.aem.training.core.schedulers;version="[
+ 1.0,2)",com.adobe.aem.training.core.servlets;version="[1.0,2)",com.da
+ y.cq.wcm.api;version="[1.29,2)",javax.servlet;version="[3.1,4)",org.a
+ pache.sling.api;version="[2.3,3)",org.apache.sling.api.request;versio
+ n="[2.4,3)",org.apache.sling.api.resource;version="[2.12,3)",org.apac
+ he.sling.api.resource.observation;version="[1.2,2)",org.apache.sling.
+ api.servlets;version="[2.3,3)",org.apache.sling.models.annotations;ve
+ rsion="[1.5,2)",org.apache.sling.models.annotations.injectorspecific;
+ version="[1.1,2)",org.slf4j;version="[1.7,2)"
+Provide-Capability: osgi.service;objectClass:List<String>="java.lang.R
+ unnable",osgi.service;objectClass:List<String>="javax.servlet.Filter"
+ ;uses:="javax.servlet",osgi.service;objectClass:List<String>="javax.s
+ ervlet.Servlet";uses:="javax.servlet",osgi.service;objectClass:List<S
+ tring>="org.apache.sling.api.resource.observation.ResourceChangeListe
+ ner";uses:="org.apache.sling.api.resource.observation"
+Require-Capability: osgi.extender;filter:="(&(osgi.extender=osgi.compo
+ nent)(version>=1.4.0)(!(version>=2.0.0)))",osgi.ee;filter:="(&(osgi.e
+ e=JavaSE)(version=1.8))"
+Service-Component: OSGI-INF/com.adobe.aem.training.core.filters.Loggin
+ gFilter.xml,OSGI-INF/com.adobe.aem.training.core.listeners.SimpleReso
+ urceListener.xml,OSGI-INF/com.adobe.aem.training.core.schedulers.Simp
+ leScheduledTask.xml,OSGI-INF/com.adobe.aem.training.core.servlets.Sim
+ pleServlet.xml
+Sling-Model-Classes: com.adobe.aem.training.core.models.HelloWorldMode
+ l
+

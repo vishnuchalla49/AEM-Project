@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Training Project - UI content</comment>
+<entry key="allowIndexDefinitions">false</entry>
+<entry key="name">aem-traning.ui.content</entry>
+<entry key="acHandling">merge</entry>
+<entry key="created">2022-12-04T04:38:28.641Z</entry>
+<entry key="groupId">com.adobe.aem.training</entry>
+<entry key="dependencies-locations">com.adobe.aem.training:aem-traning.ui.apps:0.0.1-SNAPSHOT=maven:com.adobe.aem.training:aem-traning.ui.apps:0.0.1-SNAPSHOT:zip</entry>
+<entry key="version">0.0.1-SNAPSHOT</entry>
+<entry key="packageType">content</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="dependencies">com.adobe.aem.training:aem-traning.ui.apps:0.0.1-SNAPSHOT</entry>
+<entry key="cloudManagerTarget">none</entry>
+<entry key="group">com.adobe.aem.training</entry>
+<entry key="description">UI content package for Training Project</entry>
+<entry key="artifactId">aem-traning.ui.content</entry>
+</properties>

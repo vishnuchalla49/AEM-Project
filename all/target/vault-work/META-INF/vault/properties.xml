@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Training Project - All</comment>
+<entry key="allowIndexDefinitions">false</entry>
+<entry key="name">aem-traning.all</entry>
+<entry key="created">2022-12-04T04:38:30.740Z</entry>
+<entry key="groupId">com.adobe.aem.training</entry>
+<entry key="version">0.0.1-SNAPSHOT</entry>
+<entry key="packageType">container</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">com.adobe.aem.training</entry>
+<entry key="description">All content package for Training Project</entry>
+<entry key="artifactId">aem-traning.all</entry>
+</properties>

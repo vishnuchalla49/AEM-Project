@@ -1,0 +1,7 @@
+com\adobe\aem\training\core\schedulers\SimpleScheduledTaskTest.class
+com\adobe\aem\training\core\servlets\SimpleServletTest.class
+com\adobe\aem\training\core\models\HelloWorldModelTest.class
+com\adobe\aem\training\core\listeners\SimpleResourceListenerTest.class
+com\adobe\aem\training\core\filters\LoggingFilterTest.class
+com\adobe\aem\training\core\testcontext\AppAemContext.class
+com\adobe\aem\training\core\testcontext\AppAemContext$1.class
