@@ -4,7 +4,7 @@
 <comment>Training Project - Repository Structure Package</comment>
 <entry key="allowIndexDefinitions">false</entry>
 <entry key="name">aem-traning.ui.apps.structure</entry>
-<entry key="created">2022-12-04T04:38:13.190Z</entry>
+<entry key="created">2022-12-10T04:35:54.903Z</entry>
 <entry key="groupId">com.adobe.aem.training</entry>
 <entry key="version">0.0.1-SNAPSHOT</entry>
 <entry key="packageType">mixed</entry>

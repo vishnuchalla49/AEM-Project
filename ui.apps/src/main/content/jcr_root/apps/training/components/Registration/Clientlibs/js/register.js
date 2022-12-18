@@ -1,0 +1,2 @@
+alert("in registration js");
+
